@@ -4,7 +4,6 @@ layout: doc
 title: Set up SpringSource Tool Suite
 
 ---
-{% assign site-root = 'http://javacloud:8060/force-docsite' %}
 # Set up SpringSource Tool Suite
 
 If you've gone through the quick start guide, you have a basic project template for a Database.com Java web application. Now, you can build out this web application in an IDE.
@@ -40,7 +39,7 @@ To install DataNucleus Eclipse plugin:
 1. Once you have STS installed, launch it with a new workspace.
 1. Click **File > Import**.
 1. In the import source list, click **Maven > Existing Maven Projects** and then click Next.
-1. Click **Browse** and navigate to the root folder of the `hellocloud` sample application you created in the [quick start]({{site-root}}quick-start). The root folder contains pom.xml.
+1. Click **Browse** and navigate to the root folder of the `hellocloud` sample application you created in the [quick start][quick-start]. The root folder contains pom.xml.
 1. Click **OK** and you should see your pom.xml and project name in the Projects list.
 1. Click **Finish**.
 
@@ -65,3 +64,5 @@ To run your application on SpringSource tc Server:
 Your application server should start with your application running. If the application fails to start, you may need to run **Project > Clean**. 
 
 You can access the application by navigating to `http://localhost:8080/hellocloud/` in a browser.
+
+[quick-start]: http://javacloud:8060/force-docsite "Database.com Quick Start Guide"
